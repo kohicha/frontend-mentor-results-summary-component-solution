@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="/output.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="min-h-screen sm:grid place-content-center font-hanken">
+  <main>
+      <div class="sm:grid sm:grid-cols-2 rounded-3xl shadow-2xl">
+          <div class="grid text-center col-start-1 py-10 px-8 bg-gradient-to-b from-[#6743FF] via-[#4D38F5] to-[#342EC4] max-w-sm rounded-3xl text-white ">
+           <h1 class="text-2xl pb-8 font-semibold opacity-60">Your Result</h1>
+            
+            <div class=" py-12 px-14 bg-gradient-to-b from-[#4820CA] via-[#452EE0] to-[#4734F0] aspect-square rounded-full w-48 mx-auto place-items-center">
+               <span class="text-6xl font-bold">76</span>
+               <span class="opacity-60 font-semibold">of 100</span>
+            </div>
+            <h1 class="text-2xl font-semibold py-4">
+              Great
+            </h1>
+
+            <h2 class="px-12 p opacity-60">
+            You scored higher than 65% of the people who have taken these tests.
+            </h2>
+            
+          </div>
+          
+          <div class="grid content-start gap-12 p-10 text-[#323D58] ">
+             <h1 class="text-2xl font-semibold">Summary</h1>
+             <div class="grid gap-4">
+                <div>
+                  <div class="flex bg-[#FFF6F5] rounded-lg p-4 justify-between">
+                    <div class="flex items-center gap-2">
+                      <img src="/assets/images/icon-reaction.svg" alt="">
+                      <p class="text-lg font-semibold text-[#FF7575]">Reaction</p>
+                    </div>
+                      <p class="font-bold text-lg">80 <span class="opacity-60">/ 100</span></p>
+                  </div>                    
+                </div>
+                <div>
+                  <div class="flex bg-[#FFFBF2] rounded-lg p-4 justify-between">
+                    <div class="flex items-center gap-2">
+                      <img src="/assets/images/icon-memory.svg" alt="">
+                      <p class="text-lg font-semibold text-[#FFCD6C]">Memory</p>
+                    </div>
+                      <p class="font-bold text-lg">92 <span class="opacity-60"> / 100</span></p>
+                  </div>                    
+                </div>
+                <div>
+                  <div class="flex bg-[#F2FBFA] rounded-lg p-4 justify-between">
+                    <div class="flex items-center gap-2">
+                      <img src="/assets/images/icon-verbal.svg" alt="">
+                      <p class="text-lg font-semibold text-[#93E1D0]">Verbal</p>
+                    </div>
+                      <p class="font-bold text-lg">61 <span class="opacity-60">/ 100</span></p>
+                  </div>                    
+                </div>
+                <div>
+                  <div class="flex bg-[#F3F3FD] rounded-lg p-4 justify-between">
+                    <div class="flex items-center gap-2">
+                      <img src="/assets/images/icon-visual.svg" alt="">
+                      <p class="text-lg font-semibold text-[#3C4CDE]">Visual</p>
+                    </div>
+                      <p class="font-bold text-lg">72 <span class="opacity-60">/ 100</span></p>
+                  </div>                    
+                </div>
+             </div>
+             <button class="p-4 bg-[#303B59] rounded-full text-white font-bold">
+              Continue
+            </button>
+            
+            
+        
+          </div>
+        
+        </div>
+  </main>
+  
+  
+  <div class="attribution hidden">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
